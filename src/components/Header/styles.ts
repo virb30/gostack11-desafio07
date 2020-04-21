@@ -17,11 +17,17 @@ export const Container = styled.div<ContainerProps>`
     justify-content: space-between;
 
     nav {
+      display: flex;
       a {
         color: #fff;
         text-decoration: none;
         font-size: 16px;
         transition: opacity 0.2s;
+
+        hr {
+          margin-top: 20px;
+          border: 1px solid #ff872c;
+        }
 
         & + a {
           margin-left: 32px;

@@ -93,3 +93,14 @@ export const TableContainer = styled.section`
     }
   }
 `;
+
+export const EmptyMessage = styled.div`
+  margin-top: 64px;
+  background: #fff;
+  padding: 22px 32px;
+  border-radius: 5px;
+  color: #363f5f;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+`;
